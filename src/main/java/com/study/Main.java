@@ -22,8 +22,8 @@ public class Main {
         dataSourceConfig.setDbType(DbType.MYSQL);
         dataSourceConfig.setDriverName("com.mysql.cj.jdbc.Driver");
         dataSourceConfig.setUrl("jdbc:mysql://123.57.222.242:3306/mmall");
-        dataSourceConfig.setUsername("root");
-        dataSourceConfig.setPassword("123456");
+        dataSourceConfig.setUsername("");
+        dataSourceConfig.setPassword("");
         autoGenerator.setDataSource(dataSourceConfig);
         //全局配置
         GlobalConfig globalConfig = new GlobalConfig();

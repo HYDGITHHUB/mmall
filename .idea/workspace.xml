@@ -1,416 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="953e1f1b-35e6-48f0-bb9d-3da870231b8a" name="Default Changelist" comment="build：build online">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/MmallApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/controller/CartController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/controller/OrderDetailController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/controller/OrdersController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/controller/ProductCategoryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/controller/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/controller/RedirectController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/controller/UserAddressController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/entity/Cart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/entity/OrderDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/entity/Orders.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/entity/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/entity/ProductCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/entity/UserAddress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/enums/GenderEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/enums/ResultEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/exception/MMallException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/handler/MyMetaObjectHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/mapper/CartMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/mapper/OrderDetailMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/mapper/OrdersMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/mapper/ProductCategoryMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/mapper/ProductMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/mapper/UserAddressMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/mapper/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/mapper/xml/CartMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/mapper/xml/OrderDetailMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/mapper/xml/OrdersMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/mapper/xml/ProductCategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/mapper/xml/ProductMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/mapper/xml/UserAddressMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/mapper/xml/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/CartService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/OrderDetailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/OrdersService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/ProductCategoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/UserAddressService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/impl/CartServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/impl/OrderDetailServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/impl/OrdersServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/impl/ProductCategoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/impl/ProductServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/impl/UserAddressServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/vo/ProductCategoryVO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/common.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/a_close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/a_link.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/add_ad.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/b1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/b2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/b3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/b4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/b_1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/b_2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/b_3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/b_4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/b_5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/b_6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/b_h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/b_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/b_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/b_sh_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/b_sh_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/baby_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/baby_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/baby_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/baby_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/baby_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/baby_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/baby_b1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/baby_b2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/baby_r.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ban1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/banner5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bb_ban.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bk_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bk_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bk_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bk_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/bk_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/box.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/box_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/brand1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/brand2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/brand3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/brand4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/brand5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/btn_jud.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/btn_log.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/btn_sure.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/buy1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/buy2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/c_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/c_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/c_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/c_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/c_t.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/c_ts.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ca_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ca_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ca_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ca_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/car.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/car1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/car2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/care.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/cars.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/cars_h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/clock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/close.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/d_a.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/d_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/de1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/de2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/de3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/de4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/de5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/equl.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/er.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/floor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/food_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/food_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/food_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/food_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/food_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/food_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/food_b1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/food_b2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/food_r.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/fre_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/fre_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/fre_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/fre_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/fre_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/fre_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/fre_b1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/fre_b2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/fre_r.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/h_t.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hb_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hb_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hb_11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hb_12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hb_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hb_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hb_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hb_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hb_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hb_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hb_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hb_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/heart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/heart_h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/his_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/his_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/his_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/his_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/his_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/home_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/home_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/home_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/home_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/home_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/home_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/home_b1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/home_b2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/home_r.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hot1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hot2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hot3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hot4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/i_down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/i_down_h.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/i_email.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/i_mem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/i_num.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/i_pwd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/i_tel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/i_u.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/i_up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/i_up_h.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/j_car.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/jia.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/jia_b.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/jian.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/l_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/l_1_h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/l_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/l_2_h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/l_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/l_3_h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/l_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/l_4_h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/l_img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/l_img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/login.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/logo.png.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/logo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/m_i_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/m_i_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/m_i_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/m_i_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/m_t.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/make_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/make_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/make_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/make_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/make_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/make_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/make_b1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/make_b2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/make_r.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/mat_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/mat_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/mat_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/mban_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/mban_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/milk_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/milk_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/milk_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/milk_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/milk_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/milk_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/milk_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/milk_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/milk_ban.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/mores.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/n_arrow.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/n_ban.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/n_img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/n_img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/n_not.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/name.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/nav1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/nav10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/nav2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/nav3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/nav4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/nav5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/nav6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/nav7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/nav8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/nav9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/nban.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/p_big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pa_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pa_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pa_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pa_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pa_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pa_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pa_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pa_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/paper_ban.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/peo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/peo1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/peo2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/peo3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/peo4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/peo_h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/per_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/per_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/per_11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/per_12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/per_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/per_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/per_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/per_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/per_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/per_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/per_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/per_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ph_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ph_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ph_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ph_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ph_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ph_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pl.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pro1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pro2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pro3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pro4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pro5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pro6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pro7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pro8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ps1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ps2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ps3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ps4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/r_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/r_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/s_close.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/s_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/s_line.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/s_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/s_tel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/s_txt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/sb1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/sb2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/sb3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/sbrand.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/sh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/sh1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/sh2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/sh_1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/sh_2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/sh_3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/sh_4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/sh_5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/simg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/suc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/t1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/t2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/t3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/t4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/t_arrow.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tel_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tel_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tel_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tel_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tel_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tel_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tel_b1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tel_b2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tel_r.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tj_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tj_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tj_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tm1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tm2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tm3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tm_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tm_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tm_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tm_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tm_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tm_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tm_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tm_b1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tm_b2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tm_ban.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tm_big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/tm_r.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/top0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/top1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/top2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/top3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/top4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/top5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/user.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/z_buy.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery-1.11.1.min_044d0927.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery-1.8.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery.bxslider_e88acd1b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/productDetail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/settlement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/study/MmallApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="953e1f1b-35e6-48f0-bb9d-3da870231b8a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -514,15 +105,53 @@
       <workItem from="1599038119615" duration="4886000" />
       <workItem from="1599043925911" duration="7447000" />
       <workItem from="1599213400009" duration="208000" />
+      <workItem from="1599215225881" duration="317000" />
     </task>
+    <task id="LOCAL-00001" summary="change：a little change about message">
+      <created>1599215441801</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599215441801</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="hy" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="build：build online" />
-    <option name="LAST_COMMIT_MESSAGE" value="build：build online" />
+    <MESSAGE value="change：a little change about message" />
+    <option name="LAST_COMMIT_MESSAGE" value="change：a little change about message" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1599040224570">
